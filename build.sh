@@ -1,0 +1,1 @@
+tar zcf ./ulozto-free.host INFO host.php

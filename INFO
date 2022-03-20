@@ -1,0 +1,10 @@
+{
+"name": "_Uloz.to - Free",
+"hostprefix": "uloz.to,ulozto.cz,ulozto.sk,ulozto.net,zachowajto.pl,pornfile.cz",
+"displayname": "Uloz.to - Free",
+"version": "1.0",
+"authentication": "yes",
+"module": "host.php",
+"class": "SynologyUloztoFree",
+"description": "Uloz.to - Free"
+}
