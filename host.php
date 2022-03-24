@@ -98,7 +98,7 @@ class SynologyUloztoFree
         if ($httpCode == 200) {
             $downloadUrl = $this->getDownloadUrl();
             error_log("Download url: " . $downloadUrl);
-            return array(DOWNLOAD_URL => $downloadUrl, DOWNLOAD_ISPARALLELDOWNLOAD => false);
+            return array(DOWNLOAD_URL => $downloadUrl);
         }
 
         error_log("Unspecified error, http code: " . $httpCode . "\n");
