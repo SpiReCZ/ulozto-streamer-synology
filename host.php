@@ -90,7 +90,9 @@ class SynologyUloztoFree
         }
 
         if ($httpCode == 429) {
-            return array(DOWNLOAD_COUNT => 60, DOWNLOAD_URL => $this->Url, INFO_NAME => trim($this->HostInfo[INFO_NAME]));
+            // Wait 60 seconds then query this host plugin again
+            // Passing download url is required
+            return array(DOWNLOAD_COUNT => 60, DOWNLOAD_URL => $this->Url, INFO_NAME => trim($this->HostInfo[INFO_NAME]), DOWNLOAD_ISQUERYAGAIN => 1);
         }
 
         if ($httpCode == 200) {
