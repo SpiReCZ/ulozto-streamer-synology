@@ -26,7 +26,7 @@ class SynologyUloztoFree
         ini_set('error_reporting', E_ALL);
     }
 
-    public function getDownloadInfo()
+    public function GetDownloadInfo()
     {
 
         $ret = $this->Verify(false);

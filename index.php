@@ -19,7 +19,7 @@ print_r($results);
 print_r("\n");
 print_r("\n");
 
-$results = $syno->getDownloadInfo();
+$results = $syno->GetDownloadInfo();
 print_r($results);
 print_r("\n");
 
