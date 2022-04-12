@@ -9,7 +9,7 @@ Pro funkčnost je prekvizitou běžící server [`Ulož.to Streamer`](https://gi
 ## Návod na instalaci a nastavení HOST pluginu
 1. Otevřít `Download Station` a jít do nastavení
 2. Vybrat `File Hosting` a kliknout na `Add`
-3. Zvolit HOST file [`ulozto-free.host`](releases) a kliknout na `Add`
+3. Zvolit HOST file [`ulozto-free.host`](../../releases) a kliknout na `Add`
 ![install_host.png](images/install_host.png)
 4. V dostupných `File Hosting` najít `UlozTo` a odškrtnout ve sloupečku `Enabled`. Tím bude deaktivován původní plugin. V případě absence původního pluginu je možné tento krok přeskočit. Pokud by byl nainstalován jiný ulož.to plugin je nutné jej také deaktivovat.
 5. V dostupných `File Hosting` najít `_Uloz.to - Free` (obvykle úplně dole), označit a kliknout na tlačítko `Edit`
